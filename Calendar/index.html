@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<script language="javascript" type="text/javascript" src="fde_calendar_1.0.js" ></script>
+		<style type="text/css" >
+			div.header{
+				color:red;
+				font-family:Arial, Verdana;
+			}
+			div.header span.thank{
+				font-size:70%;
+			}
+			div.suggest{
+				margin-top:10px;
+				color:green;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			This is a sample of my personal Calendar.<br />
+			See the original HTML code.<br />
+		</div>
+		<div class="suggest">
+			It's an indipendent component that configure by parameters in page.
+		</div>
+		<calendar class="fde_calendar_wrapper" >
+			<calendar_option name="format" value="DD/MM/YYYY" ></calendar_option>
+			<calendar_option name="min" value="01/01/1900" ></calendar_option>
+			<calendar_option name="maxlength" value="10"></calendar_option>
+			<calendar_option name="max" value="31/12/2099" ></calendar_option>
+			<calendar_option name="draggable" value="true" ></calendar_option>
+			<calendar_option name="name" value="date" ></calendar_option>
+			<calendar_option name="id" value="date" ></calendar_option>
+		</calendar>
+		
+	</body>
+</html>
